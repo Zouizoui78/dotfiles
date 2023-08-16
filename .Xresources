@@ -1,0 +1,5 @@
+! Use a truetype font and size.
+xterm*background: grey15
+xterm*foreground: grey93
+xterm*faceName: FiraMono-Regular
+xterm*faceSize: 12
