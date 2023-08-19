@@ -10,8 +10,9 @@ alias mc='/mnt/hdd/games/MultiMC/MultiMC'
 export WINEPREFIX=/mnt/hdd/wine_prefix
 export WGMONITOR_DEPLOY_TARGET=puti
 
-alias cmkdbg='cmake --build --preset=debug'
-alias cmkrel='cmake --build --preset=release'
+alias cmkdbg='cmake --build --preset=dbg'
+alias cmkrel='cmake --build --preset=rel'
+alias ctest='ctest --output-on-failure'
 
 function hash() {
     echo -n $1 | sha256sum
