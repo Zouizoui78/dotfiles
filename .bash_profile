@@ -10,4 +10,7 @@ export LD_LIBRARY_PATH=/usr/local/lib
 
 export XKB_DEFAULT_LAYOUT=fr
 
-startx
+# only run on login if not connecting via ssh
+if [ -z "$SSH_CLIENT" ]; then
+  startx
+fi
