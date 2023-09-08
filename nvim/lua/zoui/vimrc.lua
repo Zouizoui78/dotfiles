@@ -1,7 +1,7 @@
 -- Hide netrw banner
 vim.g.netrw_banner = 0
 
--- Keep big cursor in edit mode
+-- Keep same cursor in edit mode
 vim.opt.guicursor = ""
 
 -- Relative line numbers
