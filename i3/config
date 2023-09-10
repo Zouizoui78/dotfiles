@@ -1,3 +1,6 @@
+# Set black background
+exec --no-startup-id xsetroot -solid "#000000"
+
 font pango:Fira 11
 exec --no-startup-id "setxkbmap -layout fr"
 
