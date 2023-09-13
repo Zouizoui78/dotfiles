@@ -51,7 +51,7 @@ floating_modifier Mod4
 
 bindsym Mod4+Return exec foot
 bindsym Mod4+q kill
-bindsym Mod4+d exec "bemenu-run --fn 'ttf 18'"
+bindsym Mod4+d exec "wofi --show drun --allow-images"
 
 # change focus
 bindsym Mod4+$left focus left
