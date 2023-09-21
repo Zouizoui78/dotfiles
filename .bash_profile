@@ -12,5 +12,5 @@ export XKB_DEFAULT_LAYOUT=fr
 
 # only run on login if not connecting via ssh
 if [ -z "$SSH_CLIENT" ]; then
-  startx
+  exec startx
 fi
