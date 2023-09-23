@@ -152,7 +152,6 @@ input type:mouse {
 input type:touchpad {
     tap enabled
     natural_scroll enabled
-    dwt disabled
     accel_profile "flat"
 }
 
