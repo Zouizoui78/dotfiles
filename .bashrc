@@ -13,6 +13,7 @@ export WGMONITOR_DEPLOY_TARGET=puti
 alias cmkdbg='cmake --build --preset=dbg'
 alias cmkrel='cmake --build --preset=rel'
 alias ctest='ctest --output-on-failure'
+alias r='ranger'
 
 function hash() {
     echo -n $1 | sha256sum
