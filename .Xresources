@@ -3,3 +3,4 @@ xterm*background: grey15
 xterm*foreground: grey93
 xterm*faceName: FiraMono-Regular
 xterm*faceSize: 12
+xterm*selectToClipboard: true
