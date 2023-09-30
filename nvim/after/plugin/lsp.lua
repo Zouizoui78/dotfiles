@@ -18,7 +18,7 @@ cmp.setup({
         -- `Enter` key to confirm completion
         -- select = true : enter select the first completion
         -- item when none is selected
-        ['<CR>'] = cmp.mapping.confirm({select = true}),
+        ['<TAB>'] = cmp.mapping.confirm({select = true}),
 
         -- Ctrl+Space to trigger completion menu
         ['<C-Space>'] = cmp.mapping.complete(),
