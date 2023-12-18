@@ -48,9 +48,10 @@ set $right m
 # use Mouse+Mod4 to drag floating windows to their wanted position
 floating_modifier Mod4
 
-bindsym Mod4+Return exec foot
+bindsym Mod4+Return exec alacritty
 bindsym Mod4+q kill
-bindsym Mod4+d exec "wofi --show drun"
+bindsym Mod4+d exec "fuzzel"
+bindsym Mod4+o output "eDP-1" toggle
 
 # change focus
 bindsym Mod4+$left focus left
