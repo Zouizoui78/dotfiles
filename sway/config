@@ -18,6 +18,9 @@ exec nextcloud --background
 # Pixel border instead of window titles
 default_border pixel
 
+# screenshot
+bindsym Print exec grim -g "$(slurp)" - | wl-copy
+
 # Lock session
 bindsym Mod4+p exec "swaylock"
 
@@ -160,6 +163,6 @@ input type:keyboard {
     xkb_layout fr
 }
 
-output eDP-1 scale 1.1
+output eDP-1 scale 1.25
 
 include /etc/sway/config.d/*
