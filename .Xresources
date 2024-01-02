@@ -2,5 +2,5 @@
 xterm*background: grey15
 xterm*foreground: grey93
 xterm*faceName: CascadiaMono-Regular
-xterm*faceSize: 12
+xterm*faceSize: 11
 xterm*selectToClipboard: true
