@@ -45,8 +45,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id numlockx on
 exec --no-startup-id obs --disable-shutdown-check
 exec --no-startup-id pasystray --notify=none
-exec --no-startup-id steam-silent
 exec --no-startup-id picom
+exec --no-startup-id steam-silent
 
 # Pixel border instead of window titles
 default_border pixel
@@ -87,7 +87,7 @@ tiling_drag modifier titlebar
 
 bindsym Mod4+Return exec --no-startup-id i3-sensible-terminal
 bindsym Mod4+q kill
-bindsym Mod4+d exec "rofi -modi drun,run -show drun"
+bindsym Mod4+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym Mod4+$left focus left
